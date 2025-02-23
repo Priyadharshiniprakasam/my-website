@@ -1,0 +1,90 @@
+
+h3{
+    text-align:center;
+    color:blueviolet;
+}
+#welcome{
+    background-color: palevioletred;
+    height: 70px;
+    width: 100px;
+    padding:70px;
+    margin:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    border:3px dotted black;
+
+}
+table{
+    border:3px solid black;
+    border-collapse:collapse;
+    
+}
+th,td{
+    border:1px solid black;
+    padding:10px;
+}
+#head{
+    color:blue;
+}
+.bazz{
+    color:burlywood;
+}
+ul>li{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    color:blueviolet;
+}
+ol>li{
+    color:peru;
+}
+a{
+    color:rgb(255, 0, 212);
+}
+a[href="http://facebook.com"]{
+    color:darkgreen;
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: deeppink;
+    width:150px;
+    height:47px;
+}
+button:hover{
+    background-color: olive;
+}
+@media (min-width:800px){
+    body{
+        background-color: turquoise;
+    }
+}
+@media (max-width:799px){
+    body{
+        background-color: darkmagenta;
+    }
+}
+#flex-body{
+    display:flex;
+    flex-wrap:wrap;
+}
+#flex-body > div{ 
+    background-color:fuchsia;
+    font-size:20px;
+    margin:20px;
+}
+#grid{
+    background-color: darkblue;
+    display:grid;
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    grid-template-columns:200px 200px auto;
+    padding:20px;
+
+}
+.grid-item{
+    background-color: whitesmoke;
+    text-align: center;
+    padding:20px;
+
+}

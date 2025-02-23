@@ -1,0 +1,115 @@
+button,h2,h3,a{
+    font-family:Josefin Sans;
+}
+
+#subscribe-button{
+    background-color: rgb(202, 0, 0);
+    color:white;
+    border:none;
+    width:100px;
+    height: 25px;
+    border-radius:2px;
+    cursor:pointer;
+    margin-right:8px;
+    transition:opacity 0.15s;
+}
+#subscribe-button:hover{
+    opacity:0.7;
+}
+#subscribe-button:active{
+    opacity:0.3;
+}
+#join-button{
+    color:rgb(5, 105, 163);
+    height:25px;
+    width:55px;
+    border-color:rgb(5, 105, 163);
+    border-style:solid;
+    border-width:1px;
+    border-radius:2px;
+    background-color:white;
+    cursor:pointer;
+    margin-right:8px;
+    transition:background-color 1s,color 1s;
+
+}
+#join-button:hover{
+    background-color:blue;
+    color:white;
+}
+#join-button:active{
+    opacity:0.7;
+}
+
+#tweet-button{
+    background-color:rgb(4, 144, 230);
+    color:white;
+    width:63px;
+    height:30px;
+    border-radius:50px;
+    border-color:rgb(4, 144, 230);
+    border-style:solid;
+    border-width:1px;
+    cursor:pointer;
+    border:none;
+    font-weight:bold;
+    font-size:15px;
+    transition:box-shadow 0.5s;
+
+}
+#tweet-button:hover{
+    box-shadow:5px 5px 5px rgba(0,0,0,0.1);
+}
+#uber-button{
+    background-color:black;
+    width:100px;
+    height:35px;
+    color:white;
+    border:none;
+    margin-left:8px;
+}
+#bootstrap-button{
+    background-color: blueviolet;
+    color:white;
+    width:84px;
+    height:38px;
+    border:none;
+    border-radius: 5px;
+    margin-left:8px;
+    border-style:solid;
+    font-weight:bold;
+    font-size:12px;
+    
+}
+#download-button{
+    background-color: white;
+    color:gray;
+    border-color:gray;
+    width:75px;
+    height:35px;
+    border-radius:2px;
+    border-style:solid;
+    font-weight:bold;
+    font-size:12px;
+}
+#stretch-button{
+    background-color: green;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition:padding 0.3s;
+
+}
+#stretch-button:hover{
+    
+    
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:25px;
+    padding-bottom:25px;
+
+}
